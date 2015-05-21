@@ -1,0 +1,37 @@
+{
+  "name": "jitter-time",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "vend/jitter-time.js",
+  "author": {
+    "name": "James Bunt",
+    "email": "james@vendhq.com",
+    "url": "github.com/vend"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "post-build": "onchange 'dist/**.js' 'test/**.js' -- npm test",
+    "watch": "npm run build -- -w & npm run post-build",
+    "test": "standard && mocha --compilers js:babel/register",
+    "prepublish": "npm run build && npm test"
+  },
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "*",
+    "mocha": "*",
+    "onchange": "1.x",
+    "standard": "*"
+  },
+  "standard": {
+    "ignore": [
+      "coverage/**",
+      "dist/**",
+      "node_modules/**"
+    ]
+  }
+}
