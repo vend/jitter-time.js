@@ -1,4 +1,5 @@
 # jitter-time
+
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![js-standard-style][standard-style-image]][standard-style-url]
@@ -26,7 +27,8 @@ $ npm install --save jitter-time
 ```js
 var jitterTime = require('jitter-time')
 
-var POLL_INTERVAL = jitterTime(5, 0.2) //=> 290110 (Random number between 240000 and 360000)
+var POLL_INTERVAL = jitterTime(5, 0.2)
+//=> 290110 (Random number between 240000 and 360000)
 
 setInterval(syncDataWithServer, POLL_INTERVAL)
 ```
