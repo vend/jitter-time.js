@@ -1,9 +1,9 @@
 {
-  "name": "drifted-time-period",
+  "name": "jitter-time",
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "repository": "vend/drifted-time-period",
+  "repository": "vend/jitter-time.js",
   "author": {
     "name": "James Bunt",
     "email": "james@vendhq.com",
