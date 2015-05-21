@@ -37,15 +37,15 @@ setInterval(syncDataWithServer, POLL_INTERVAL)
 
 #### minutes
 
-Type: `number` 
-Default: `1`
+- Type: `number`
+- Default: `1`
 
 Number of minutes to jitter around.
 
 #### jitter
 
-Type: `number` 
-Default: `0.1`
+- Type: `number`
+- Default: `0.1`
 
 Percentage of jitter (for setting max and min). E.g. 1 = +/-100%, 0.1 = +/-10%, etc.
 
