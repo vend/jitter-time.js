@@ -1,4 +1,5 @@
 # Jitter Time!
+
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![js-standard-style][standard-style-image]][standard-style-url]
@@ -10,12 +11,10 @@
 [standard-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-style-url]: https://github.com/feross/standard
 
-### Jittery time generation
-
 ![jitter time](http://media.giphy.com/media/gpGrAKmOsiD3W/giphy.gif)
 
-Generates random time periods (in milliseconds) between a max and min around the given minutes value. For
-example this can be used to ensure 5 minute poll requests across multiple clients don't all happen at once.
+> Generates random time periods (in milliseconds) between a max and min around the given minutes value. For
+> example this can be used to ensure 5 minute poll requests across multiple clients don't all happen at once.
 
 ## Install
 
