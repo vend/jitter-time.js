@@ -10,6 +10,7 @@
     "url": "github.com/vend"
   },
   "main": "dist/index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "babel src -d dist",
     "post-build": "onchange 'dist/**.js' 'test/**.js' -- npm test",
