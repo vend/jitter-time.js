@@ -1,11 +1,10 @@
-/*eslint-env mocha */
+/* eslint-env mocha */
 'use strict'
 
 import assert from 'assert'
 import jitterTime from '../'
 
 describe('jitter-time', function () {
-
   function test10k (argsToPass, min, max) {
     const lowerBound = min * 60000
     const upperBound = max * 60000

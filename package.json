@@ -10,11 +10,12 @@
     "url": "github.com/vend"
   },
   "main": "dist/index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "babel src -d dist",
     "post-build": "onchange 'dist/**.js' 'test/**.js' -- npm test",
     "watch": "npm run build -- -w & npm run post-build",
-    "test": "standard && mocha --compilers js:babel/register",
+    "test": "standard && mocha --require @babel/register",
     "prepublish": "npm run build && npm test"
   },
   "keywords": [
@@ -25,10 +26,13 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "babel": "*",
-    "mocha": "*",
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "mocha": "^5.2.0",
     "onchange": "1.x",
-    "standard": "*"
+    "standard": "^12.0.1"
   },
   "standard": {
     "ignore": [
