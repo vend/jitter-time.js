@@ -1,6 +1,6 @@
 {
   "name": "jitter-time",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Jittery time generation",
   "license": "MIT",
   "repository": "vend/jitter-time.js",
