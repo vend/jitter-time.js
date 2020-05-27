@@ -1,5 +1,3 @@
-'use strict'
-
 const MINUTES = 6E4
 
 /**
