@@ -1,11 +1,8 @@
 # Jitter Time!
 
-[![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 [![js-standard-style][standard-style-image]][standard-style-url]
 
-[travis-image]: https://img.shields.io/travis/vend/jitter-time.js.svg?style=flat
-[travis-url]: https://travis-ci.org/vend/jitter-time.js
 [npm-image]: https://img.shields.io/npm/v/jitter-time.svg?style=flat
 [npm-url]: https://npmjs.org/package/jitter-time
 [standard-style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
