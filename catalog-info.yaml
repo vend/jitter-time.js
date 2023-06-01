@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: vend/jitter-time.js
+  description: Generate time periods drifted around a given value.
+  name: jitter-time.js
+spec:
+  lifecycle: production
+  owner: tba
+  type: library
